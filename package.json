@@ -1,0 +1,41 @@
+{
+    "name": "natty",
+    "author": "Filipe Herculano <fifo_@live.com>",
+    "publisher": "this-fifo",
+    "license": "MIT",
+    "icon": "icon.png",
+    "displayName": "Natty",
+    "description": "Like snazzy but natty",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "natty",
+        "snazzy",
+        "color",
+        "color-theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Natty",
+                "uiTheme": "vs-dark",
+                "path": "./themes/natty-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/this-fifo/natty-theme"
+    },
+    "homepage": "https://github.com/this-fifo/natty-theme",
+        "bugs": {
+            "url": "https://github.com/this-fifo/natty-theme/issues"
+    }
+}
