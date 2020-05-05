@@ -106,7 +106,6 @@
     "terminal.background": "#242530",
     "terminal.foreground": "#EEFFFF",
     "titleBar.activeBackground": "#242530",
-    "widget.shadow": "#2C2F3D",
     "editorWidget.background": "#282a36",
     "editorWidget.border": "#b7c5d370",
     "textLink.activeForeground": "#f3f99d",
@@ -236,7 +235,10 @@
     },
     {
       "name": "Other Variable, String Link",
-      "scope": ["string.other.link", "support.other.variable"],
+      "scope": [
+        "string.other.link",
+        "support.other.variable"
+      ],
       "settings": {
         "foreground": "#94D0FF"
       }
@@ -380,7 +382,10 @@
     },
     {
       "name": "CSS ID's",
-      "scope": ["source.sass keyword.control"],
+      "scope": [
+        "source.sass",
+        "keyword.control"
+      ],
       "settings": {
         "foreground": "#82AAFF"
       }
