@@ -7,3 +7,7 @@
 ## 0.0.2
 
 - Drop widget shadow changes
+
+## 0.1.0
+
+- Add support for indicating unused variables
